@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>How to add event!!!!</h1>
+    <!-- <button class="click" onclick="doSomething()">
+        Click Click
+    </button> -->
+
+    <button class="click" id="myButton">
+        Click Click
+    </button>
+
+
+    <!-- <script src="script2.js"></script> -->
+    <script>
+        // console.log('Hello World');
+
+        document.getElementById('myButton').addEventListener('click', doSomething)
+
+        function doSomething() {
+            console.log('I am clicked');
+        }
+    </script>
+</body>
+
+</html>
